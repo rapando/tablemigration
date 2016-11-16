@@ -1,6 +1,7 @@
 /*
 * This code sends a request to source.php then takes the data for the whole table in json format
 * It then loops through each row of the table, in each loop sending the data to dest.php then prints out the reply from dest.php
+* The whole process begins when the user clicks the Button in index.html
 */
 
 $("button.load-data").on('click', function() {
